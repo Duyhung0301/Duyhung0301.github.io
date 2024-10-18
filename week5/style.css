@@ -1,0 +1,43 @@
+/* dấu . dành cho class */
+/* dấu # dành cho id */
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+
+
+nav#topmenu ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center; /*Chữ căn ở giữa*/
+    padding: 0; /*Khoảng cách bên trong*/
+    margin: 0;/*Khoảng cách bên ngoài*/
+}
+
+nav#topmenu li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block; /*Chia thành dòng*/
+    padding: 20px; /*Khoảng các giữa các chữ*/
+
+}
+
+nav#topmenu a {
+    text-decoration: none; /*Loại bỏ đừng gạch chân*/
+    color: #fff;
+}
+
+article header p {
+    font-style: italic;
+}
+
+footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
