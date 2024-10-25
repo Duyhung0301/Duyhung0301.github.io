@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test 2</title>
+    <link rel="stylesheet" href="test2.css">
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td class="data">Hearder version (4 bits)</td>
+            <td class="data">Header length (4 bits) </td>
+            <td>Type of service (8 bits)</td>
+            <td colspan="2">Type of service (16 bits)</td>
+        </tr>
+        <tr>
+            <td colspan="3">Identification (16 bits)</td>
+            <td>Flags (3 bits)</td>
+            <td>Flagment offset (13 bits)</td>
+        </tr>
+        <tr>
+            <td colspan="2">Time to live (8 bits)</td>
+            <td>Protocol (8 bits)</td>
+            <td colspan="2">Header checksum (16 bits)</td>
+        </tr>
+        <tr>
+            <td colspan="5">Source IP address (32 bits)</td>
+        </tr>
+        <tr>
+            <td colspan="5">Destination IP address (32 bits)</td>
+        </tr>
+        <tr>
+            <td colspan="5">Option</td>
+        </tr>
+        <tr>
+            <td colspan="5">Data</td>
+        </tr>
+    </table>
+</body>
+</html>

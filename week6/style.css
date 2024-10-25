@@ -1,0 +1,70 @@
+/* span#id1 {
+    color: red
+}
+
+.highlight{
+    background-color: yellow;
+    color: blue;
+}
+#id2 {
+    color: green;
+} */
+
+/* Tô màu thẻ p thứ 2, bỏ qua thẻ span và thẻ p */
+span + p + p {
+    color: aquamarine;
+}
+
+/* Có dấu > thì chỉ lấy những cái thẻ a to hơn, không có thì lấy tất cả */
+div.items > a {
+    color: green;
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.highlight{
+    color: blue;
+    background-color: yellow;
+}
+
+.red{
+    color: red
+}
+
+p[title] {
+    color: blueviolet;
+}
+
+p[title = "test"] {
+    color: orange;
+}
+
+h1, p {
+    color: green;
+}
+
+.hoverClass:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: red;
+}
+
+ul:active {
+    background-color: burlywood;
+}
+
+

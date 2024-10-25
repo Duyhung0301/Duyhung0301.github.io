@@ -1,9 +1,10 @@
-table {
-    border: 1px solid black;
-    border-collapse: collapse;
+table{
+    margin: auto;
+    background-color: rgb(49, 193, 255);
+    width: 300px;
+    height: 200px;
 }
 
-table td{
-    border: 1px solid red;
-    padding: 10px;
+table tfoot{
+    text-align: right;
 }
