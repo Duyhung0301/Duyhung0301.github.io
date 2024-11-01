@@ -1,0 +1,9 @@
+
+a:link {
+    color: purple; /* Màu tím cho liên kết chưa truy cập */
+}
+
+
+a:visited {
+    color: red; /* Màu đỏ cho liên kết đã truy cập */
+}

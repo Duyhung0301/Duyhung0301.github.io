@@ -12,7 +12,7 @@
 
 /* Tô màu thẻ p thứ 2, bỏ qua thẻ span và thẻ p */
 span + p + p {
-    color: aquamarine;
+    color: red;
 }
 
 /* Có dấu > thì chỉ lấy những cái thẻ a to hơn, không có thì lấy tất cả */
@@ -30,41 +30,46 @@ div.items > a {
 }
 
 .highlight{
-    color: blue;
     background-color: yellow;
 }
+
 
 .red{
     color: red
 }
-
+/*đổi định dạng của các thẻ p có title*/
 p[title] {
     color: blueviolet;
 }
 
-p[title = "test"] {
-    color: orange;
+/*Đổi định dạng các thẻ p có name là "test"*/
+p[name = "test"] {
+    color: white;
 }
 
 h1, p {
     color: green;
 }
 
+/*Khi di chuột vào sẽ đổi định dạng*/
 .hoverClass:hover{
-    color: red;
+    color: blue;
     text-decoration: underline;
 }
 
+/* Định dạng màu cho liên kết chưa truy cập */
 a:link {
-    color: purple;
+    color: pink;
 }
 
+/* Định dạng màu cho liên kết đã truy cập */
 a:visited {
     color: red;
 }
 
+/*Khi ấn chuột thì tất cả phần ul sẽ đổi định dạng màu*/
 ul:active {
-    background-color: burlywood;
+    background-color: gold;
 }
 
 
