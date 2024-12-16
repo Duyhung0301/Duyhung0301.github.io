@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    width: 40%;
+    padding: 10px;
+    background-color: #f4f4f9;
+    border-right: 2px solid #ddd;
+}
+
+.right-column {
+    text-align: justify;
+    width: 60%;
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.left-column h2 {
+    color: #007bff;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section p {
+    margin: 7px;
+    padding: 0px;
+}
+
+.section ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section_edu {
+    line-height: 0.5;
+}
+
+.section_edu ul li {
+    line-height: 1.2;
+}
+
+.section_refer{
+    margin: 0;
+    padding: 0;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+.skills ul li, .certifications ul li {
+    margin-bottom: 5px;
+}
+
+.right-column h3 {
+    margin: 10px 0 5px;
+}
+
+.right-column ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
